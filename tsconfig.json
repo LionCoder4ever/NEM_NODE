@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "sourceMap": true,
+      "outDir":"./built",
+      "rootDir":"./src",         
+      "strict": true,
+      "noImplicitAny": true,
+    },
+      "include": [
+      "./src/**/*"
+    ],
+    "exclude": [
+      "views",
+      "public"
+    ]
+}
